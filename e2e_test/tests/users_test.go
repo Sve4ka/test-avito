@@ -153,7 +153,7 @@ func TestGetReview(t *testing.T) {
 				PullRequestId:   "testGetReviewSuccess",
 			},
 			path:        basePathUsers + "/getReview?user_id=",
-			description: "Get Review Success 0 PR",
+			description: "Get Review Success 1 PR",
 
 			body:         "testGetReviewSuccess_1",
 			expectedCode: http.StatusOK,
