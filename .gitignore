@@ -24,7 +24,6 @@ coverage.html
 go.work
 go.work.sum
 
-
 # ide
 .idea/
 .vscode/
