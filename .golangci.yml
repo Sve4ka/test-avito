@@ -1,0 +1,38 @@
+linters:
+  presets:
+    - bugs
+    - error
+    - format
+    - import
+    - style
+    - test
+    - unused
+    - complexity
+    - sql
+    - module
+
+  disable:
+    - funlen
+    - lll
+    - gochecknoglobals
+    - gochecknoinits
+    - ireturn
+    - wrapcheck
+    - varnamelen
+    - tagliatelle
+    - exhaustruct
+    - depguard
+    - promlinter
+    - revive
+    - stylecheck
+    - err113
+    - gocognit
+    - cyclop
+
+
+
+
+
+
+
+

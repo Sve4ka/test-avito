@@ -1,0 +1,11 @@
+services:
+  test:
+    container_name: test
+    build:
+      context: ./
+      dockerfile: e2e_test/Dockerfile
+    environment:
+      SERVICE_HOST: backend
+      SERVICE_PORT: ${SERVICE_PORT:-8080}
+    depends_on:
+      - backend
